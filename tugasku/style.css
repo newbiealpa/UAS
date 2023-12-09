@@ -1,0 +1,45 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.carousel {
+  width: fit-content;
+  height: fit-content;
+  align-content: center;
+}
+
+.pj-siril {
+  width: 5%;
+  height: 10%;
+}
+
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card {
+  flex: 1 0 auto;
+}
+
+.icon-item {
+margin-right: 25px;
+margin-left: -10px;
+}
